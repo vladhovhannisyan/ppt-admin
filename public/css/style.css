@@ -1,0 +1,152 @@
+body{
+    background-color: #51CCD0;
+}
+
+.container{
+    background-color: white;
+    padding: 0px !important;
+}
+
+.mt-3{
+    margin-top: 30px;
+}
+
+.main{
+    min-height: 500px;
+}
+
+.header{
+    background-color: #FDCE85;
+    margin: 0px;
+    height: 100px;
+    width: 100%;
+}
+
+.header-text{
+    color: #534732;
+    font-size: 21px;
+    padding-top: 34px;
+}
+
+.items{
+    margin: 37px 64px;
+}
+
+.item{
+    border-radius: 3px;
+    height: 195px;
+    width: 166px;
+    margin: 5px 33px;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 4px 4px 2px #888888;
+}
+
+.item-image{
+    /* background-color: #F39993; */
+    width: 100%;
+    height: 146px;
+    padding-top: 40px;
+}
+
+.item-name{
+    background-color: #F3F3F3;
+    width: 100%;
+    height: 46px;
+    padding-top: 9px;
+    font-size: 14px;
+    font-family: cursive;
+}
+
+#templates .item-image{
+    background-color: #F39993;
+}
+
+#images .item-image{
+    background-color: #84A1C0;
+}
+
+#videos .item-image{
+    background-color: #F5A472;
+}
+
+#framworks .item-image{
+    background-color: #ACD195;
+}
+
+#links .item-image{
+    background-color: #7BC2DA;
+}
+
+#templates div i{
+    color: #BE7875;
+}
+
+#images div i{
+    color: #667D95;
+}
+
+#videos div i{
+    color: #BD7758;
+}
+
+#framworks div i{
+    color: #8DAC79;
+}
+
+#links div i{
+    color: #6398AD;
+}
+
+.back{
+    top: 48px;
+    padding-left: 22px;
+    position: absolute;
+    color: #536460;
+    cursor: pointer;
+}
+
+.element{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #536460;
+    border-radius: 25px;
+    margin-bottom: 12px;
+}
+
+.element img {
+    width: 70px;
+    height: 35px;
+    margin: 7px 9px 1px 36px;
+    display:inline-block;
+    border-radius: 20px;
+}
+
+.element i{
+    float: right;
+    display:inline-block;
+    margin: 11px 26px 0px 1;
+    font-size: 23px;
+    cursor: pointer;
+    color: #534732;
+}
+
+
+.element p{
+    display:inline-block;
+    color: #534732;
+    position: relative;
+    top: 4px;
+}
+
+.add-btn{
+    position: relative;
+    background-color: #2F79AB;
+    color: #fff;
+    margin-bottom: 32px;
+    left: 1018px;
+    height: 45px;
+    width: 172px;
+    border: 1px solid #2F79AB;
+    border-radius: 21px;
+}
